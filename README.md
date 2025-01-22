@@ -32,7 +32,7 @@ You'll need some other hardware to assemble the whole controller:
 * 9x 1U Choc V1 keycaps (you could print these if you'd like)
 * 5x 1.5U Choc V1 keycaps (you could print these if you'd like)
 * 4x 10x10mm Chicago screws (e.g. https://de.aliexpress.com/item/1005004649666564.html)
-* 1x acrylic top plate (see `optional` files. Can also be printed)
+* 1x acrylic top plate (see `optional/` files. Can also be printed)
 * 1x USB-C cable (we recommend right-angled, braided)
 
 
