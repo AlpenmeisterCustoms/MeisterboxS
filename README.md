@@ -6,23 +6,27 @@ The goal here was to build a controller that is pocket sized, great for travelli
 
 It comes with an acrylic cover so you can put in your favorite artwork. Passthrough port on the side. Switches are Kailh choc v1. Button caps are 1U and 1.5U MBK. The layout is the Meisterlayout with two thumb buttons, two pinky buttons and a center button. It's designed as ergonomic as possible and sized down to the smallest footprint possible.
 
-P.S. Why Knochen? Knochen means bone in German and the initial idea was to wrap the USB cable vertically, which would make it sort of shaped like a stylized dog bone.
+P.S. Why "Knochen"? Knochen means bone in German and the initial idea was to wrap the USB cable vertically, which would make it sort of shaped like a stylized dog bone.
 
-## Case files
+## Case Files
 
 The repository contains five STLs in the `stls_to_print` folder which you'll need to print to make the Meisterbox S:
 
-* 1x knochen-bottom.stl: the bottom of the shell
-* 1x knochen-top.stl: the top of the shell
-* 2x knochen-hinge_pin.stl: the pin used for the hinges
-* 2x knochen-hinge_cap.stl: the cap to put on the hinge pin. This should be a press-fit which will be more or less tight depending on materials and print settings. You might need some force to put it on the pin or it might be loose. You can always glue this to the hinge with a little CA glue if you want
-* 2x knochen-hinge_closure.stl: the closure tabs to make sure the top of the controller doesn't fall off
+* 1x `knochen-bottom.stl`: the bottom of the shell
+* 1x `knochen-top.stl`: the top of the shell
+* 2x `knochen-hinge_pin.stl`: the pin used for the hinges
+* 2x `knochen-hinge_cap.stl`: the cap to put on the hinge pin. This should be a press-fit which will be more or less tight depending on materials and print settings. You might need some force to put it on the pin or it might be loose. You can always glue this to the hinge with a little CA glue if you want
+* 2x `knochen-hinge_closure.stl`: the closure tabs to make sure the top of the controller doesn't fall off
 
 You might need to orient the items on your print bed. We managed to print everything together on the 180mmx180mmx180mm print bed of a Bambu Lab A1 mini. This build has been tested in PLA and PETG. Our recommendation is using PETG if you can since that would make sure your controller won't warp when exposed to heat or become brittle because of sun exposure. If you use this controller to travel, those might be some conditions it might get exposed to.
 
 If you want to change anything about the design, check out `project_files/knochen.FCStd`. You can open the file using FreeCAD and change anything you'd like.
 
 You will also find optional files for the acrylic cover `optional/meisterboxs-acrylic.step` and a cutout file for artwork `optional/meisterboxs-acrylic.dxf`.
+
+## PCB Files
+
+You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs will need some caution. You can follow the "How to order a board" [instructions by TheTrain](https://github.com/TheTrainGoes/GP2040-Projects/tree/main/Pico%20Advanced%20Breakout%20Board) for now.
 
 ## Additional Hardware
 
