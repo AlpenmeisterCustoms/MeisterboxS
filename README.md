@@ -22,6 +22,8 @@ You might need to orient the items on your print bed. We managed to print everyt
 
 If you want to change anything about the design, check out `project_files/knochen.FCStd`. You can open the file using FreeCAD and change anything you'd like.
 
+You will also find optional files for the acrylic cover 'optional/meisterboxs-acrylic.step' and a cutout file for artwork 'optional/meisterboxs-acrylic.dxf'.
+
 ## Additional Hardware
 
 You'll need some other hardware to assemble the whole controller:
@@ -32,4 +34,6 @@ You'll need some other hardware to assemble the whole controller:
 * 4x screws for the corner
 * 1x acrylic top plate
 * 1x USB-C cable (we recommend right-angled, braided)
+
+
 
