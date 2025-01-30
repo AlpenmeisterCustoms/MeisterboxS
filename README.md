@@ -78,7 +78,6 @@ Please bear in mind: Do this at your own risk. It is your own responsibility to 
 ## Additional Hardware
 
 You'll need some other hardware to assemble the whole controller:
-* 1x Meisterbox S PCB
 * 14x Choc V1 switches
 * 9x 1U Choc V1 keycaps (you could print these if you'd like)
 * 5x 1.5U Choc V1 keycaps (you could print these if you'd like)
