@@ -41,15 +41,15 @@ You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs w
     - Different Design: 1
     - Delivery Format: Single PCB
     - PCB Thickness: 1.6mm
-    - PCB Color: choose your color, we would recommend black
+    - **PCB Color: choose your color, we would recommend black**
     - Silkscreen: White
     - Surface Finish: HASL, choose with lead or LeadFree
     - Outer Copper Weight: 1oz
     - Via Covering: Tented
     - Min via hole size/diameter 0.3mm
     - Board Outline Tolerance: +/-0.2mm
-    - Confirm Production file: Yes
-    - Mark on PCB: Remove Mark
+    - **Confirm Production file: Yes**
+    - **Mark on PCB: Remove Mark**
     - Electrical Test: Flying Probe Fully Test
     - Gold Fingers. No
     - Castellated Holes: No
@@ -60,7 +60,7 @@ You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs w
     - Assembly Side: Top Side
     - PCBA Qty: Choose the same amount as PCB Qty
     - Tooling holes: Added by JLCPCB
-    - Confirm Parts Placement: Yes THIS IS VERY IMPORTANT, JLCPCB will make a production file to match the files we provide, please check if all components are where they should be
+    - **Confirm Parts Placement: Yes THIS IS VERY IMPORTANT, JLCPCB will make a production file to match the files we provide, please check if all components are where they should be**
     - Parts Selection: By Customer
     - Advanced Options don't touch and leave as defaults
 7. Click "Next"
