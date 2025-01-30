@@ -26,7 +26,54 @@ You will also find optional files for the acrylic cover `optional/meisterboxs-ac
 
 ## PCB Files
 
-You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs will need some caution. You can follow the "How to order a board" [instructions by TheTrain](https://github.com/TheTrainGoes/GP2040-Projects/tree/main/Pico%20Advanced%20Breakout%20Board) for now.
+You can find the files necessary to order the PCB in `pcb/`. Ordering the PCBs will need some caution. If you want to order the boards please closely follow the instructions.
+
+### How to Order the PCBs
+1. Go to JLCPCB.com
+2. Click on "Order now"
+3. Click on "Add gerber file" and choose "MeisterboxS_gerber.zip"
+4. Use the following options, mostly  defaults, those that need changes are highlighted:
+    - Base Material: FR-4
+    - Layers: 2
+    - Dimensions: do not touch
+    - PCB Qty: 5 is minimum
+    - Product Type: Industrial/Consumer electronics
+    - Different Design: 1
+    - Delivery Format: Single PCB
+    - PCB Thickness: 1.6mm
+    - PCB Color: choose your color, we would recommend black
+    - Silkscreen: White
+    - Surface Finish: HASL, choose with lead or LeadFree
+    - Outer Copper Weight: 1oz
+    - Via Covering: Tented
+    - Min via hole size/diameter 0.3mm
+    - Board Outline Tolerance: +/-0.2mm
+    - Confirm Production file: Yes
+    - Mark on PCB: Remove Mark
+    - Electrical Test: Flying Probe Fully Test
+    - Gold Fingers. No
+    - Castellated Holes: No
+    - Edge Plating: No
+5. Use the switch next to "PCB Assembly"
+6. Use the following options for PCB Assembly, mostly defaults, those that need changes are highlighted:
+    - PCBA Type: Economic
+    - Assembly Side: Top Side
+    - PCBA Qty: Choose the same amount as PCB Qty
+    - Tooling holes: Added by JLCPCB
+    - Confirm Parts Placement: Yes THIS IS VERY IMPORTANT, JLCPCB will make a production file to match the files we provide, please check if all components are where they should be
+    - Parts Selection: By Customer
+    - Advanced Options don't touch and leave as defaults
+7. Click "Next"
+8. Click "Next"
+9. Click "Add BOM" File and choose "MeisterboxS_bom.csv", then click "Add CPL File" and choose "MeisterboxS_CPL.csv". Then click "Process BOM & CPL"
+10. You will then be presented with the components that are used on the board, they should be in stock and selected. Only then click "Next". Do not proceed if some are missing and you don't know what they do.
+11. You will then see a prompt saying "The system detects components that may be offset from the PCB, does it try to automatically align it?" (sic). Click "Cancel". You will then see that the USB ports and top switches are misaligned. Select the USB ports and move them a bit inwards. Then select the top switches and rotate them 180°. Try to align them with the holes in the board. You do not have to be precise, this is just an indication of how you want the parts to be placed, the final placement in the production file will be done by a JLCPCB employee. Click "Next" when finished.
+12. You will then see the costs of production. Choose a "Product Description" on the right side "Research/Eduction/DIY/Entertainment" > "DIY - HS Code 902300". This is for the customs declaration. "Click "Save to cart".
+13. You'll be in your cart. Select the PCB we just configured and then go through the "Secure Checkout"
+
+Please bear in mind: Do this at your own risk. It is your own responsibility to do the ordering process. We are not responsible for any mistakes in this instruction, as the actual ordering process might change at any time.
+
+
 
 ## Additional Hardware
 
