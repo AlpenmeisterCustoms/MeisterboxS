@@ -1,8 +1,11 @@
-# Alpenmeister's Meisterbox S 
+# Alpenmeister's Meisterbox S v1   
 
 ![A leverless controller with a shell printed in black and white. The controller has a lid with a white logo on black background and a white groove. To the side of the shell lid a two closure tabs. The controller itself has 14 black or white buttons with low profile keycaps.](pictures/knochen_overview.jpeg "Overview of the Meisterbox S")
 
 Meisterbox S © 2024 by Alpenmeister is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+
+# ATTENTION: THIS IS PAGE AND CONTROLLER IS NOW DEPRECATED.  
+# [PLEASE CONTINUE HERE TO VERSION 2](https://github.com/AlpenmeisterCustoms/AlpenmeisterS-v2).
 
 The goal here was to build a controller that is pocket sized, great for travelling (to locals) and that is, as the name suggests, an actual box. You can just wrap your USB cable around it and put it in your pocket, because it's barely larger than a large smartphone and weighs just below 200g.
 
